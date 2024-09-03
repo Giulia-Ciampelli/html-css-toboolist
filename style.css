@@ -38,10 +38,33 @@ main {
     background-color: white;
     margin: 3rem 10rem 0rem;
     border-radius: 10px;
-    padding: 3rem 6rem;
+    padding: 1rem 6rem;
 }
 
 /* sezione opzioni */
+.blue-button {
+    background-color: var(--blue-button);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+    vertical-align: middle;
+}
+
+.grey-button {
+    background-color: white;
+    color: lightgray;
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 8px;
+    vertical-align: middle;
+}
+
+hr {
+    border: 1px solid var(--background);
+    margin-left: -6rem;
+    margin-right: -6rem;
+}
 
 /* sezione new task */
 
