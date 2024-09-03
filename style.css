@@ -8,10 +8,13 @@
     --website: #d863a1;
     --sales: #b0c926;
     --font-colour: #444851;
+    --check: #65c0a9;
+    --cross: #eb5952;
 }
 
 * {
     font-family: "Roboto";
+    font-weight: 500;
 }
 
 body {
@@ -72,40 +75,65 @@ hr {
     color: var(--font-colour);
 }
 
+h3 {
+    display: inline-block;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
 /* impostazioni check e cross */
 .check {
-
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    color: var(--check);
+    border: 1px solid;
+    border-radius: 50%;
+    font-size: x-small;
+    text-align: center;
+    margin-right: 0.5rem;
 }
 
 .cross {
-
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    color: var(--cross);
+    border: 1px solid;
+    border-radius: 50%;
+    font-size: x-small;
+    text-align: center;
+    margin-right: 0.5rem;
 }
 
 /* impostazioni tag alla fine della lista */
 .tag {
-    
+    color: white;
+    font-size: xx-small;
+    padding: 0.4rem 0.5rem;
+    border-radius: 10px;
 }
 
 #editorial {
-
+    background-color: var(--editorial);
 }
 
 #q1-goals {
-
+ background-color: var(--q1-goals);
 }
 
 #recruiting {
-
+    background-color: var(--recruiting);
 }
 
 #mobile {
-
+    background-color: var(--mobile);
 }
 
 #website {
-
+    background-color: var(--website);
 }
 
 #sales {
-
+    background-color: var(--sales);
 }
