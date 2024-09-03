@@ -21,6 +21,7 @@ body {
 /* sezione header */
 header {
     background-color: white;
+    padding-left: 1rem;
 }
 
 h1 {
@@ -30,6 +31,14 @@ h1 {
 
 #header-logo {
     vertical-align: middle;
+}
+
+/* sezione main */
+main {
+    background-color: white;
+    margin: 3rem 10rem 0rem;
+    border-radius: 10px;
+    padding: 3rem 6rem;
 }
 
 /* sezione opzioni */
