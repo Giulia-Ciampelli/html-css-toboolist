@@ -31,6 +31,7 @@ header {
 h1 {
     display: inline-block;
     vertical-align: middle;
+    font-weight: 900;
 }
 
 #header-logo {
