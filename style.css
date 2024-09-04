@@ -73,14 +73,21 @@ hr {
 }
 
 /* sezione liste */
-.task {
+details {
     color: var(--font-colour);
 }
 
-h3 {
-    display: inline-block;
+summary {
     font-weight: 900;
     margin-bottom: 0;
+}
+ ul {
+    list-style-type: none;
+    margin-left: -40px;
+ }
+
+li {
+    line-height: 2rem;
 }
 
 /* impostazioni check e cross */
@@ -94,6 +101,7 @@ h3 {
     font-size: x-small;
     text-align: center;
     margin-right: 0.5rem;
+    line-height: 1rem;
 }
 
 .cross {
@@ -106,6 +114,7 @@ h3 {
     font-size: x-small;
     text-align: center;
     margin-right: 0.5rem;
+    line-height: 1rem;
 }
 
 /* impostazioni tag alla fine della lista */
