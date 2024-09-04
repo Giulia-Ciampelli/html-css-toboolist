@@ -51,6 +51,7 @@ main {
     background-color: var(--blue-button);
     color: white;
     border-radius: 5px;
+    border: 1px solid;
     border: none;
     padding: 8px;
     vertical-align: middle;
